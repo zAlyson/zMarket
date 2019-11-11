@@ -1,0 +1,61 @@
+
+# Insira sua licença aqui.
+
+licença: XXXX_XXXX_XXXX_XXXX
+
+
+# Após quanto tempo o produto irá expirar. (Em minutos)
+
+product_expire_time: 2000
+
+# Valor máximo que um produto pode ser vendido.
+
+value_limit_max: 200000
+
+# Valor minímo que um produto pode ser vendido.
+
+value_limit_min: 100
+
+# Defina aqui, o limite de produtos que o jogador poderá vender.
+# Pode definir vários limites.
+
+limit_products:
+  10: 'market.limit.10'
+  15: 'market.limit.15'
+  20: 'market.limit.20'
+
+# Defina aqui, o limite de produtos que o jogador poderá ter em seu mercado privado.
+# Pode definir vários limites.
+
+limit_private_products:
+  10: 'market.limit.products.10'
+  15: 'market.limit.products.15'
+  20: 'market.limit.products.20'
+
+messages:
+  actionbar_sale_announcement: '&e&lMERCADO! &fNovo produto à venda de &e%salesman%&f, por &e$%sale%&f.'
+  product_for_sale:
+    - ''
+    - '&a&l MERCADO! &aVocê colocou um produto à venda no mercado.'
+    - '&7 Preço: &f$%sale%&7.'
+    - ''
+    - '&7 Caso o produto não seja vendido em 24 horas, ele será adicionado em seu armazém.'
+    - ''
+  product_for_sale_private:
+      - ''
+      - '&a&l MERCADO! &aVocê colocou um produto à venda no mercado pessoal de %target%.'
+      - '&7 Preço: &f$%price%&7.'
+      - ''
+  received_product_private:
+    - ''
+    - ' &a %target% &aestá lhe vendendo um produto por %price%.'
+    - ' &7 Confira em seu mercado pessoa!'
+    - ''
+  you_bought:
+    - ''
+    - ' &eVocê comprou o produto de %salesman%, por %price%.'
+    - ''
+  product_sold:
+    - ''
+    - ' &eSeu produto foi vendido para %buyer%.'
+    - ''

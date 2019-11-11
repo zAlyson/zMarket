@@ -1,0 +1,7 @@
+name: zMarket
+main: br.alysonsantos.market.StoreMarket
+version: 1.5.0
+author: [Alyson Santos]
+commands:
+  mercado:
+    aliases: [market, ah]
